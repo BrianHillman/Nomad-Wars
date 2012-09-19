@@ -17,10 +17,8 @@ fpsCap = parser.get('video', 'fpsCap')
 
 #----------------------
 pygame.init()
-player = sprites.playerCharacter()
-allsprites = pygame.sprite.LayeredDirty(player)
-screen.blit(background, (0, 0))
-rects = allsprites.draw(screen)
-pygame.display.update(rects)
-allsprites.clear(screen, background)
+screen = pygame.display.set_mode((800, 600))
+pygame.display.set_caption("Nomad Wars - By Grant G. and Brian H.")
 
+menus.mainMenu.main(screen)
+#-----------------------Main loop------------------------------#
