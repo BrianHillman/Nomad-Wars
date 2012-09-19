@@ -1,4 +1,3 @@
-#someone create better parser for this, mine is insecure 
-#general config s
+#general config 
 [video]
 fpsCap: 30
