@@ -11,6 +11,7 @@ def gameInit():
 
 	#Clear Menu Objects
 
+
 	#Run game loop once done loading
 	gameLoop()
 
@@ -22,12 +23,27 @@ def gameLoop():
 	while (running):
 		
 		#Print Level
-
+		printGame()
 
 		#Check for User Input
 
 
 		#Update Game
+		updateGame()
+
+		#Exit
+		print "Exit Now"
 		running=False
-		pygame.quit()
 		sys.exit()
+		pygame.quit()
+
+#--- Takes character,map,network, etc objects and updates the game
+def printGame():
+	print "Print Game Now"
+
+def updateGame():
+	print "Update Game Now"
+
+#--- Returns the direction in degrees from player coordinates to mouse coordinates
+def getMouseDirection(pX,pY)
+	mX,mY=pygame.mouse.get_pos()
