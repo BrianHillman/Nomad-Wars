@@ -42,7 +42,7 @@ def printGame():
     pygame.display.update()
 
 def updateGame():
-    a=0
+    pass
 
 #--- Returns the direction in degrees from player coordinates to mouse coordinates
 def getMouseDirection(pX,pY):
