@@ -15,10 +15,9 @@ parser.read('config')
 fpsCap = parser.get('video', 'fpsCap')
 
 
-#----------------------
+#---------------------- Set Window Settings ----------------------
 pygame.init()
 screen = pygame.display.set_mode((800, 600))
 pygame.display.set_caption("Nomad Wars - By Grant G. and Brian H.")
 
-menus.mainMenu.main(screen)
 #-----------------------Main loop------------------------------#

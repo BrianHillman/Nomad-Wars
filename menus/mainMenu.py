@@ -43,6 +43,7 @@ def main(screen):
             print 'test'
             pygame.quit()
             sys.exit()
+            
         pygame.display.update(rect_list)
 
 
