@@ -1,4 +1,4 @@
-import sprites,menus,levels
+import sprites,levels
 import gameEngine
 import pygame,sys,ConfigParser
 
@@ -49,7 +49,7 @@ def main(screen):
                 rect_list, state = menu.update(e, state)
             elif state == 1:
                 print 'Start Game!'
-
+                gameEngine.gameInit()
                 state = 0
             elif state == 2:
                 print 'Load Game!'
@@ -69,5 +69,4 @@ def main(screen):
         pygame.display.update(rect_list)
 
 #---- Call Main Menu ------#
-menus.mainMenu.main(screen)
-
+main(screen)
