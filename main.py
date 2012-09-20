@@ -35,7 +35,7 @@ def main(screen):
     state = 0
     prev_state = 1
     rect_list = []
-    pygame.event.set_blocked(pygame.MOUSEMOTION)
+    #pygame.event.set_blocked(pygame.MOUSEMOTION)
 
 
     while True:
