@@ -68,5 +68,5 @@ def main(screen):
         pygame.display.update(rect_list)
 
 #---- Call Main Menu ------#
-if __name__ == __main__:
+if __name__ == "__main__":
     main(screen)
